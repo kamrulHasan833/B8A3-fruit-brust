@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friut Brust</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Lato Font Famity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind And DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Style Configuration to Tailwind -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            maxWidth: {
+              standard: "90rem",
+            },
+            colors: {
+              "primary-color": "#F85559",
+              "title-color": "#121212",
+              "desc-color": "#12121299",
+              "desc2-color": "#121212CC",
+              "rating-color": "#FBC0A8",
+              "fb-color": "#1877F2",
+              "yt-color": "#FF0000",
+            },
+            fontFamily: {
+              lato: ["Lato", "sans-serif"],
+            },
+            backgroundImage: {
+              "slider-1": "url('./images/banner1.png')",
+              "slider-2": "url('./images/banner2.png')",
+              "slider-1": "url('./images/banner3.png')",
+              "slider-1": "url('./images/banner4.png')",
+              tema: "url('./images/team.png')",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-lato">
+    <!-- Header Area -->
+    <header></header>
+    <!-- Mani Body -->
+    <main></main>
+    <!-- Footer Area -->
+    <footer></footer>
+  </body>
+</html>
