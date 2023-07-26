@@ -21,10 +21,20 @@ module.exports = {
           backgroundImage: {
             "slider-1": "url('./images/banner1.png')",
             "slider-2": "url('./images/banner2.png')",
-            "slider-1": "url('./images/banner3.png')",
-            "slider-1": "url('./images/banner4.png')",
+            "slider-3": "url('./images/banner3.png')",
+            "slider-4": "url('./images/banner4.png')",
             tema: "url('./images/team.png')",
           },
+          margin:{
+            standard:'8.75rem'
+        },
+        padding: {
+          "btn-px": "1.875rem",
+        },
+        
+        fontSize: {
+          "modal-title": "40px",
+        },
       },
     },
     plugins: [],
