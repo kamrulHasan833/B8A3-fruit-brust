@@ -5,6 +5,9 @@ module.exports = {
       extend: {
         maxWidth: {
             standard: "90rem",
+            'text-max':'37.5rem',
+            'text-moderate':'26rem',
+            'text-min':'17.5rem'
           },
           colors: {
             "primary-color": "#F85559",
@@ -14,6 +17,8 @@ module.exports = {
             "rating-color": "#FBC0A8",
             "fb-color": "#1877F2",
             "yt-color": "#FF0000",
+            "hr-color": "#121212CC",
+            'brd-color':' #12121219'
           },
           fontFamily: {
             lato: ["Lato", "sans-serif"],
@@ -23,7 +28,7 @@ module.exports = {
             "slider-2": "url('./images/banner2.png')",
             "slider-3": "url('./images/banner3.png')",
             "slider-4": "url('./images/banner4.png')",
-            tema: "url('./images/team.png')",
+            team: "url('./images/team.png')",
           },
           margin:{
             standard:'8.75rem'
